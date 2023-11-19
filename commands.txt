@@ -1,0 +1,14 @@
+npm init
+npm install --save-dev hardhat
+npx hardhat init
+npm install --save-dev @nomicfoundation/hardhat-toolbox
+npm i @openzeppelin/contracts
+
+
+npx hardhat compile
+
+npm install --save-dev openzeppelin-solidity
+
+npm install --save-dev dotenv
+
+npx hardhat run scripts/deploy.js --network bsctest
